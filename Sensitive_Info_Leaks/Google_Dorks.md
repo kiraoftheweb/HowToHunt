@@ -3,13 +3,14 @@
 `inurl:example.com intitle:"index of"` <br>
 `inurl:example.com intitle:"index of /" "*key.pem"` <br>
 `inurl:example.com ext:log` <br>
-`inurl:example.com intitle:"index of" ext:sql|xls|xml|json|csv` <br>
+`inurl:example.com intitle:"index of" ext:sql|xls|xml|json|csv|conf|db` <br>
 `inurl:example.com "MYSQL_ROOT_PASSWORD:" ext:env OR ext:yml -git` <br>
 `inurl:example.com intitle:"index of" "config.db"` <br>
 `inurl:example.com allintext:"API_SECRET*" ext:env | ext:yml` <br>
 `inurl:example.com intext:admin ext:sql inurl:admin` <br>
 `inurl:example.com allintext:username,password filetype:log` <br>
 `site:example.com "-----BEGIN RSA PRIVATE KEY-----" inurl:id_rsa`<br>
+`site:example.com ext:s inurl:id_rsa`<br>
 
 ![t](https://miro.medium.com/max/550/1*N9W6DfGA6wxgKTiywV9aUA.png) <br>
 
