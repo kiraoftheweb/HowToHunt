@@ -34,6 +34,7 @@ http://site.com/secret => 200
 [https://observationsinsecurity.com/2020/08/09/bypassing-403-to-get-access-to-an-admin-console-endpoints/](https://observationsinsecurity.com/2020/08/09/bypassing-403-to-get-access-to-an-admin-console-endpoints/)
 ```
 X-Forwarded-For: 127.0.0.1
+X-Original-URL: /yoururl
 ```
 
 ### Tools
